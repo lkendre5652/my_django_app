@@ -7,10 +7,10 @@ on:
 
 jobs:
   create_new_job:
-    run-on: 'ubuntu-latest'
+    runs-on: ubuntu-latest
     steps:
-      - name : Laxman Kendre
-        run : echo 'This is the S/w Eng. job'
+      - name: Laxman Kendre
+        run: echo "This is a new job"
   test:
     runs-on: ubuntu-latest
 
