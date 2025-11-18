@@ -1,11 +1,16 @@
 name: Django CI
 
-on:
+on:  
   push:
     branches: ["master"]
   pull_request:
 
 jobs:
+  create_new_job:
+    run-on: 'ubuntu-latest'
+    steps:
+      - name : Laxman Kendre
+        run : echo 'This is the S/w Eng. job'
   test:
     runs-on: ubuntu-latest
 
